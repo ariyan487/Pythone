@@ -1,1 +1,0 @@
-# Finding-the-smallest-number-out-of-three-numbers
