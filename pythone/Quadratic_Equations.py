@@ -10,11 +10,11 @@ def solve_quadratic(a, b, c):
         # Two real and distinct roots
         x1 = (-b + math.sqrt(D)) / (2*a)
         x2 = (-b - math.sqrt(D)) / (2*a)
-        return f"The roots are: {x1:.2f} and {x2:.2f}"
+        return f"The roots are: {x1} and {x2}"
     elif D == 0:
         # One real root
         x = -b / (2*a)
-        return f"The root is: {x:.2f}"
+        return f"The root is: {x:}"
     else:
         # Complex roots
         return "Roots are imaginary"
