@@ -13,15 +13,4 @@ if (a + b > c) and (b + c > a) and (c + a > b):
     area = math.sqrt(s * (s - a) * (s - b) * (s - c))
     print(f"The area of the triangle is: {area:.2f}")
 else:
-    print("Triangular formation is not possible") 
-
-
-
-
-
-
-
-
-
-
-
+    print("Triangular formation is not possible")
