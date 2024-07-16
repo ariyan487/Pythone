@@ -26,10 +26,3 @@ c = float(input("Enter coefficient c: "))
 
 # Solve the quadratic equation and print the result
 print(solve_quadratic(a, b, c))
-
-
-
-
-
-
-
